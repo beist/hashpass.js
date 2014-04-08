@@ -11,7 +11,6 @@ Usage pattern:
 * specify an id of an element to watch for a change of value/content/string
 * triggers when changed (or other trigger)
 * converts string into md5, sha-1, sha-2, hmac etc. hash, with ... functions.
-
 -
 
     $("#login-password").on('change', function (plaintext) {
